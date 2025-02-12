@@ -1,6 +1,6 @@
 # <img src="https://raw.githubusercontent.com/gearmagicru/gm-be-references-articles/refs/heads/master/assets/images/icon.svg" width="64px" height="64px" align="absmiddle"> Расширение (модуль) панели управления "Типы материалов"
 
-Панель справочников выводит все установленные и доступные пользователю справочники и осуществляет переход между ними.
+Типы материалов (статей) сайта определяют поля и шаблоны вывода информации о материале на странице сайта.
 
 Этот модуль является расширением для [модуля "Справочники"](https://github.com/gearmagicru/gm-be-references).
 
