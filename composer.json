@@ -1,14 +1,7 @@
 {
     "name": "gearmagicru/gm-be-references-articles",
     "description": "Control Panel extension (module) \"Types of articles\"",
-    "keywords": [
-        "gm",
-        "gearmagic",
-        "GM Panel",
-        "extension",
-        "references",
-        "articles"
-    ],
+    "keywords": ["gearmagic", "gm-panel", "gm-component", "gm-extension", "extension", "references", "articles"],
     "homepage": "https://apps.gearmagic.ru/component/gm-be-references-articles",
     "type": "component",
     "license": "MIT",
