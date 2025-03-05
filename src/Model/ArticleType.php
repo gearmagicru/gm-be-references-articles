@@ -47,18 +47,18 @@ class ArticleType extends ActiveRecord
             'id'            => 'id', // идентификатор
             'name'          => 'name', // название
             'description'   => 'description', // описание
-            'icon'          => 'icon', // URL-путь к значку
+            'icon'          => 'icon', // URL-путь значка
             'enabled'       => 'enabled', // доступность
             'all'           => 'all', // просмотр записей всех материалов
             'fields'        => 'fields', // имена полей
             'columns'       => 'columns', // столбцы
             'components'    => 'components', // компоненты 
             'elements'      => 'elements', // элементы дерева
-            'tabAttributes' => 'tab_attributes', // вкладка "Атрибуты"
-            'tabAnnounce'   => 'tab_announce', // вкладка "Анонс"
-            'tabText'       => 'tab_text', // вкладка "Текст"
-            'tabSeo'        => 'tab_seo', // вкладка "SEO"
-            'tabAdditionally' => 'tab_additionally', // вкладка "Дополнительно"
+            'tabAttributes' => 'tab_attributes', // элементы вкладки "Атрибуты"
+            'tabAnnounce'   => 'tab_announce', // элементы вкладки "Анонс"
+            'tabText'       => 'tab_text', // элементы вкладки "Текст"
+            'tabSeo'        => 'tab_seo', // элементы вкладки "SEO"
+            'tabAdditionally' => 'tab_additionally', // элементы вкладки "Дополнительно"
         ];
     }
 
