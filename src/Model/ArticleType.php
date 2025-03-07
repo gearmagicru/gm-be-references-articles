@@ -204,4 +204,17 @@ class ArticleType extends ActiveRecord
         $tabs['additionally'] = $attributes;
         return $tabs;
     }
+
+    /**
+     * Удаляет все записи.
+     * 
+     * @throws \Gm\Db\Adapter\Driver\Exception\CommandException Невозможно выполнить инструкцию SQL.
+     */
+    public function deleteAll()
+    {
+        $this->getDb()
+            ->createCommand()
+                ->truncateTable($this->tableName())
+                ->execute();
+    }
 }
