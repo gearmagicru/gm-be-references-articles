@@ -106,4 +106,16 @@ class Import extends \Gm\Import\Import
             ]
         ];
     }
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function afterImportAttributes(array $columns): array
+    {
+        // URL-путь значка
+        if (!empty($columns['icon'])) {
+            $columns['icon'] = MODULE_BASE_URL . $columns['icon'];
+        }
+        return $columns;
+    }
 }
